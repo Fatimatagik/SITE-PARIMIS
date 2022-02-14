@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.box2{
+    visibility: hidden;
+}
+
+.d-play{
+    display: flex;
+  
+}
+
+nav a{
+    padding: 20px;
+}
+
+.liste{
+    list-style: none;
+}
+
+
+
+
+
+
