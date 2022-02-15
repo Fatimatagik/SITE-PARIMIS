@@ -1,16 +1,31 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background-color: darkkhaki;
+    background: url(./Images/hotel.jpg);
+    background-size: cover;
 }
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
 
 
 .logo{
     width: 100px;
     height: 100px;
 
+}
+
+header img{
+    color: white;
 }
 
 
@@ -26,6 +41,9 @@ body{
 header{
     flex-direction: row;
     justify-content: space-between;
+    background-color: #eed3bf;
+    position: fixed;
+    width: 100%;
 }
 
 nav a{
@@ -60,6 +78,7 @@ input{
 
 .fa-basket-shopping{
     font-weight: 400;
+    align-items: flex-end;
 }
 
 .search{
@@ -70,6 +89,40 @@ input{
     max-width: 1000px;
     margin: 0 auto;
 
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.spa figure{
+    transition: all 1s ease;
+}
+
+figure:hover{
+    opacity: 0.7;
+    transform: animate_heartBeat (-10deg);
+}
+
+figure{
+    box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
+-webkit-box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
+-moz-box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
+border-radius: 15px;
+padding: 0px 10px;
+}
+
+img{
+    min-width: 100%;
+    
+
+    
+}
+
+footer{
+    background-color: #eed3bf;
 }
 
 
