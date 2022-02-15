@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: darkkhaki;
+}
+
 
 .logo{
     width: 100px;
     height: 100px;
+
 }
 
 
@@ -15,15 +20,56 @@
 
 .d-play{
     display: flex;
-  
+}
+
+
+header{
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav a{
     padding: 20px;
+
+}
+
+.nav-item{
+    font-size:medium;
+    
 }
 
 .liste{
     list-style: none;
+}
+
+
+
+header input{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 30%;
+}
+
+input{
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+
+}
+
+.fa-basket-shopping{
+    font-weight: 400;
+}
+
+.search{
+    flex-direction: row;
+
+}
+.conteneur{
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
 
 
