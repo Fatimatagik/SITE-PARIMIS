@@ -3,21 +3,29 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background: url(./Images/hotel.jpg);
-    background-size: cover;
-}
+.conteneur{
+    max-width: 1000px;
+    margin: 0 auto;
 
+}
 h1 h2 h3 h4 h5 h6{
     font-family: 'Playfair Display', serif;
 }
 
+h1{
+    text-align: center;
+}
 
 
+/*---------------- PAGE HOME*/
+body{
+    background: url(./Images/hotel.jpg);
+    background-size: cover;
+
+}
 
 
-
-
+/*------------Header----------*/
 .logo{
     width: 100px;
     height: 100px;
@@ -27,7 +35,6 @@ h1 h2 h3 h4 h5 h6{
 header img{
     color: white;
 }
-
 
 .box2{
     visibility: hidden;
@@ -85,11 +92,9 @@ input{
     flex-direction: row;
 
 }
-.conteneur{
-    max-width: 1000px;
-    margin: 0 auto;
 
-}
+/*------------Contenue Principal----------*/
+
 
 h2{
     text-align: center;
@@ -107,25 +112,81 @@ figure:hover{
 }
 
 figure{
-    box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
+    /* box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
 -webkit-box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
 -moz-box-shadow: 11px -15px 32px -10px rgba(33,29,29,0.75);
 border-radius: 15px;
-padding: 0px 10px;
+padding: 0px 10px; */
 }
 
 img{
     min-width: 100%;
-    
-
-    
 }
 
+form{
+    justify-content: center;
+}
+
+.map{
+    justify-content: center;
+    margin: 10%;
+
+}
+
+
+
+/*------------Footer----------*/
 footer{
     background-color: #eed3bf;
 }
 
 
+/*---------------- PAGE CONTACT*/
+
+.conteneur .formulaire{
+    align-items: center;
+}
+
+
+
+
+
+.formulaire{
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    min-height: auto;
+    padding: 20px;
+    background-color:#eed3bf ;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.formulaire input{
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.formulaire textarea{
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+.formulaire button{
+    justify-content: center;
+}
+
+/*---------------- PAGE RESERVAION*/
+
+.form-p{
+    background-color: #eed3bf;
+    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 

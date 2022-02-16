@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="d-play">
+    <!-- <header class="d-play">
         <div ><img  class="logo" src="./Images/logo.png" alt=""></div>
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -47,78 +47,122 @@
         
 
 
-    </header>
+    </header> -->
 
-              <!-- Footer -->
-<footer class="page-footer font-small indigo">
 
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-    
-        <!-- Grid row -->
-        <div class="row">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mentions Légales</h5>
-    
+
+    <div class="conteneur">
+
+        <div class="bloc1">
+            <form action="">
+                <h5>Hôtel</h5>
+                <div class="form-p">
+                    <label for="men">Mr</label>
+                    <input type="radio" name="civilite" value="men" id="homme">
+                    <label for="women">Mme</label>
+                    <input type="radio" name="civilite" value="women" id="femme">
+                    <input type="text" name="nom" id="nom" placeholder="Nom">
+                    <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+                    <input type="email" name="email" id="email" placeholder="email">
+                    <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                    <label for="client"></label> Adulte(s)
+                    <select name="client" id="client">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
             
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Condition Générales de Ventes</h5>
-    
-            
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Plan du site</h5>
-    
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-            <!-- Links -->
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Newsletter</h5>
-    
-    
-            </div>
-            <!-- Grid column -->
-    
+                    <label for="enfant"></label> Enfant(s)
+                    <select name="enfant" id="enfant">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+        
+                    <label for="gamme"></label> Gamme de chambre
+                    <select name="gamme" id="gamme">
+                        <option value="classique">Classique</option>
+                        <option value="confort">Confort</option>
+                        <option value="deluxe">Deluxe</option>
+                        <option value="suite">Suite</option>
+                    </select>
+        
+                    <label for="calendrier">Séjour</label>
+                    <input type="date" name="datearrivee" id="datearrivee">
+                    <input type="date" name="datedepart" id="datedepart">
+
+                    
+                </div>
+            </form>
+
         </div>
-        <!-- Grid row -->
-    
+
+
+        <div class="bloc2">
+            <form action="">
+                <h5>Restaurant</h5>
+
+                <label for="personne"></label>Nombre de personne(s)
+                <select name="personne" id="personne">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <label for="menu"></label>Menu cartes
+                <select name="menu" id="menu">
+                    <option value="carte">Carte Brasserie</option>
+                    <option value="carte">Carte Dégustation</option>
+                    <option value="carte">Carte Restaurant</option>
+                </select>
+            </form>
+
+
         </div>
-        <!-- Footer Links -->
-    
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> HotelParimis.com</a>
+
+        <div class="bloc3">
+            <form action="">
+                <h5>Séjour SPA</h5>
+                <label for="soin"></label>Soins
+                    <select name="spa" id="spa">
+                        <option value="soin">Détente</option>
+                        <option value="soin">Découverte</option>
+                        <option value="soin">Plaisirt</option>
+                        <option value="soin">Relaxant</option>
+                        <option value="soin">Evasion</option>
+                        <option value="soin">Spa</option>
+                    </select>
+
+                <label for="calendier">Date</label>
+                <input type="date" name="date" id="date">
+                <a href="">Ajouter au panier</a>
+
+            </form>
+
         </div>
-        <!-- Copyright -->
+
+    </div>
+
     
-</footer>
+
+
+
+
+
+
+
+   
+    
+     
 
 
 
