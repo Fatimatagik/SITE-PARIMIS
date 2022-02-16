@@ -181,11 +181,32 @@ footer{
 
 /*---------------- PAGE RESERVAION*/
 
+.bloc1{
+    flex-direction: column;
+}
+
 .form-p{
     background-color: #eed3bf;
-    padding: 100px 0;
+    /* padding: 100px 0; */
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: column;
+    
+}
+
+.form-p input{
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.form-p select{
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+
 }
 
 
