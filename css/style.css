@@ -63,6 +63,7 @@ nav a{
     
 }
 
+
 .liste{
     list-style: none;
 }
@@ -144,26 +145,41 @@ footer{
 
 /*---------------- PAGE CONTACT*/
 
-.conteneur .formulaire{
-    align-items: center;
+
+.cont-contact{
+    margin: 70px auto;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+
 }
+
+
 
 
 
 
 
 .formulaire{
-    flex-direction: column;
-    width: 40%;
+    display: block;
+    width: 80%;
     align-items: center;
-    min-height: auto;
     padding: 20px;
-    background-color:#eed3bf ;
+    background-color: rosybrown ;
     border-radius: 15px;
     text-align: center;
 }
 
-.formulaire input{
+
+.boite input{
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    justify-content: center;
+}
+
+/* .formulaire input{
     margin: 5px auto;
     padding: 10px;
     border-radius: 5px;
@@ -175,7 +191,7 @@ footer{
     padding: 10px;
     border-radius: 5px;
     width: 300px;
-}
+} */
 .formulaire button{
     justify-content: center;
 }
