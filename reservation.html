@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- <header class="d-play">
+    <header class="d-play">
         <div ><img  class="logo" src="./Images/logo.png" alt=""></div>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-
                 <a class="nav-link active" aria-current="page" href="#">L'hôtel</a>
             </li>
             <li class="nav-item">
@@ -30,7 +29,7 @@
                 <a class="nav-link" href="./reservation.html">Réservation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./avis.html">Avis</a>
+                <a class="nav-link" href="./actualites.html">Actualités</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
@@ -44,64 +43,77 @@
             <i class="fa-solid fa-basket-shopping d-play"></i>
 
         </div>
+        <div>
+            <select name="langue" id="langue">
+                <option value="fr">FR</option>
+                <option value="en">EN</option>
+                    
+            </select>
+    
+        </div>
+        
         
 
 
-    </header> -->
+    </header>
 
 
 
-    <div class="conteneur">
+    <div class="conteneur cont-resa">
 
         <div class="bloc1 d-play">
             <form action="">
                 <h5>Hôtel</h5>
-                <div class="form-p d-play">
+
+                <div class="boite">
                     <div>
                         <label for="men">Mr</label>
                         <input type="radio" name="civilite" value="men" id="homme">
                         <label for="women">Mme</label>
                         <input type="radio" name="civilite" value="women" id="femme">
                     </div>
-                    
-                    <input type="text" name="nom" id="nom" placeholder="Nom">
-                    <input type="text" name="prenom" id="prenom" placeholder="Prénom">
-                    <input type="email" name="email" id="email" placeholder="email">
-                    <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
-                    <label for="client"></label> Adulte(s)
-                    <select name="client" id="client">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
+                    <div class="form-p d-play">
+                        <input class="d-play" type="text" name="nom" id="nom" placeholder="Nom">
+                        <input class="d-play" type="text" name="prenom" id="prenom" placeholder="Prénom">
+                        <input class="d-play" type="email" name="email" id="email" placeholder="email">
+                        <input class="d-play" type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                        <label for="client"></label> Adulte(s)
+                        <select name="client" id="client">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                
+                        <label for="enfant"></label> Enfant(s)
+                        <select name="enfant" id="enfant">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
             
-                    <label for="enfant"></label> Enfant(s)
-                    <select name="enfant" id="enfant">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-        
-                    <label for="gamme"></label> Gamme de chambre
-                    <select name="gamme" id="gamme">
-                        <option value="classique">Classique</option>
-                        <option value="confort">Confort</option>
-                        <option value="deluxe">Deluxe</option>
-                        <option value="suite">Suite</option>
-                    </select>
-        
-                    <label for="calendrier">Séjour</label>
-                    <input type="date" name="datearrivee" id="datearrivee">
-                    <input type="date" name="datedepart" id="datedepart">
+                        <label for="gamme"></label> Gamme de chambre
+                        <select class="gamme " name="gamme" id="gamme">
+                            <option value="classique">Classique</option>
+                            <option value="confort">Confort</option>
+                            <option value="deluxe">Deluxe</option>
+                            <option value="suite">Suite</option>
+                        </select>
+            
+                        <label for="calendrier">Séjour</label>
+                        <input class="d-play" type="date" name="datearrivee" id="datearrivee">
+                        <input class="d-play" type="date" name="datedepart" id="datedepart">
+    
+                        
+                    </div>
 
-                    
                 </div>
+                
             </form>
 
         </div>
@@ -147,8 +159,11 @@
 
                 <label for="calendier">Date</label>
                 <input type="date" name="date" id="date">
-                <a href="">Ajouter au panier</a>
+                <div class="b-panier d-play ">
+                    <a  href="">Ajouter au panier</a>
 
+                </div>
+                
             </form>
 
         </div>
@@ -156,6 +171,76 @@
     </div>
 
     
+        <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mentions Légales</h5>
+    
+            
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Condition Générales de Ventes</h5>
+    
+            
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Plan du site</h5>
+    
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Newsletter</h5>
+    
+    
+            </div>
+            <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> HotelParimis.com</a>
+        </div>
+        <!-- Copyright -->
+    
+</footer>
 
 
 

@@ -49,7 +49,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     background-color: #eed3bf;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -127,6 +127,7 @@ form{
     justify-content: center;
 }
 
+
 .map{
     justify-content: center;
     margin: 10%;
@@ -181,34 +182,81 @@ footer{
 
 /*---------------- PAGE RESERVAION*/
 
-.bloc1{
-    flex-direction: column;
+h5{
+    text-align: center;
+}
+.cont-resa{
+    margin: 50px auto;
+    max-width: 500px;
+}
+.bloc1 form,.bloc2{
+    /* max-width: 1000px; */
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+
+.bloc1, .bloc2, .bloc3{
+    background-color:rosybrown;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    
 }
 
 .form-p{
-    background-color: #eed3bf;
-    /* padding: 100px 0; */
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-direction: column;
+    display: block; 
+  
     
 }
 
 .form-p input{
     margin: 5px auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    width: 300px;
+    width: 250px;
+    justify-content: center;
 }
 
 .form-p select{
-    margin: 5px auto;
-    padding: 10px;
+    /* margin: 5px auto; */
+    padding: 5px;
     border-radius: 5px;
-    width: 300px;
+    width: 50px;
+    /* display: block; */
+    /* justify-content: center; */
+}
+.form-p .gamme{
+    width: 110px;
+    justify-content: center;
+}
+
+.bloc3 .b-panier{
+    
+  
 
 }
 
+.bloc3 a{
+    border: 5 px solid black;
+    justify-content: center;
+    background-color: blue;
+    width: 20%;
+    border-radius: 5px; 
+   
+}
 
+.bloc3 a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: all 0.5s ease;
+}
 
+/*---------------- PAGE SPA*/
 
+.cont-spa{
+    margin: 20px auto;
+    max-width: 650px;
+}
