@@ -16,7 +16,18 @@ h1{
     text-align: center;
 }
 
+p{
+    padding: 10px;
+}
 
+/* section{
+    margin: 10px;
+} */
+
+
+footer{
+    margin-top: 20px;
+}
 /*---------------- PAGE HOME*/
 body{
     background: url(./Images/hotel.jpg);
@@ -53,10 +64,15 @@ header{
     width: 100%;
 }
 
-nav a{
+nav{
+    justify-content: center;
+}
+
+
+/* nav a{
     padding: 20px;
 
-}
+} */
 
 .nav-item{
     font-size:medium;
@@ -80,17 +96,24 @@ input{
     position: relative;
 }
 .fa-magnifying-glass{
-    position: absolute;
+    /* position: absolute; */
+    margin-right: 10px;
 
 }
 
 .fa-basket-shopping{
-    font-weight: 400;
+    font-weight: 600;
     align-items: flex-end;
+    margin-right: 20px;
+}
+
+.lang{
+    justify-content: end;
 }
 
 .search{
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: end;
 
 }
 
@@ -204,6 +227,13 @@ h5{
 .cont-resa{
     margin: 50px auto;
     max-width: 500px;
+
+}
+
+
+.civilite{
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .bloc1 form,.bloc2{
     /* max-width: 1000px; */
@@ -215,9 +245,9 @@ h5{
 
 .bloc1, .bloc2, .bloc3{
     background-color:rosybrown;
-    width: 500px;
+    width: 550px;
     padding: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 15px;
     
 }
@@ -268,6 +298,11 @@ h5{
     cursor: pointer;
     background-color: aqua;
     transition: all 0.5s ease;
+}
+
+
+.b-menu{
+    flex-direction: column;
 }
 
 /*---------------- PAGE SPA*/
