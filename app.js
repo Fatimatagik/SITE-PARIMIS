@@ -19,13 +19,24 @@ let regex_date = /^\d{4}\-\d{1,2}\-\d{1,2}$/;
 let regex_datearrivee = /^\d{4}\-\d{1,2}\-\d{1,2}$/;
 let regex_datedepart = /^\d{4}\-\d{1,2}\-\d{1,2}$/;
 
-button.addEventListener('click', event)=>{
-    event.preventDefault();
-    
-    document.getElementById('error_nom').innerHTML = ''
-    if (nom.value===""){
-        document.getElementById('error_nom').innerHTML =`
-        <p class='error'>champ vide ! </p>`
+console.log(button)
+    button.addEventListener('click', (event) => { 
+        event.preventDefault();
         
-    }
-}
+        document.getElementById('erreur_nom').innerHTML = ''
+        if (nom.value===""){
+            document.getElementById('erreur_nom').innerHTML =`
+            <p class='erreur'> veuillez saisir votre nom </p>`
+        }
+        else if(nom.value.length <10 || nom.value.length >15){
+            document.getElementById('erreur_nom').innerHTML =
+            `<p class= 'erreur'> veuillez saisir votre nom</p>`
+        }
+
+
+        if(prenom.value===""){
+            document.getElementById('erreur_prenom').innerHTML=`
+            <p class= 'erreur'> veuillez saisir votre prénom</p>`
+        }
+    })
+

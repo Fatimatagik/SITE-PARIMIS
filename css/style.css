@@ -197,7 +197,7 @@ form{
 /*------------Footer----------*/
 footer{
     background-color: #eed3bf;
-    position: fixed;
+   
 }
 
 
@@ -223,7 +223,7 @@ footer{
     width: 80%;
     align-items: center;
     padding: 20px;
-    background-color: rosybrown ;
+    background-color: #eed3bf ;
     border-radius: 15px;
     text-align: center;
 }
@@ -279,7 +279,7 @@ h5{
 
 
 .bloc1, .bloc2, .bloc3{
-    background-color:rosybrown;
+    background-color:#eed3bf;
     width: 550px;
     padding: 10px;
     /* margin: 10px; */
