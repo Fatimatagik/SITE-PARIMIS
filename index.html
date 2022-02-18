@@ -14,35 +14,45 @@
 
     
 
-        <header class="d-play">
+    <header class="d-play">
             <div ><img  class="logo" src="./Images/logo.png" alt=""></div>
 
-            <nav class="d-play">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-    
-                        <a class="nav-link active" aria-current="page" href="./index.html">L'hôtel</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./chambres.html">Chambres</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./spa.html">Spa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./reservation.html">Réservation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./actualites.html">Actualités</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+
+            <nav class="navbar navbar-expand-lg navbar-light d-play nav2">
+                <div class="container-fluid"> 
+                    <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navigation">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Hôtel</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./chambres.html">Chambres</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./restaurant.html">Restaurant</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./spa.html">Spa</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./actualites.html">Actualités</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        </ul>
+                </div>
+                </div>
             </nav>
+
+          
                 <div class="search d-play">
                     <input type="text" title="recherche" id="recherche" placeholder="Votre recherche ">
                     
@@ -60,38 +70,37 @@
             
                 </div>
                 
-    
-    
-
             
-
-
-            
-        </header>
+        </header> 
         
     
     <div class="conteneur">
-        <div>
+        <div class="row">
             
+
+            <div class="col-sm-12 col-md-12">
+                
             <h1>HÔTEL PARIMIS</h1>
-            <div class="col-12">
                 <img src="./Images/hotel.jpg" class="img-fluid" alt="...">
             </div>
             
-    
-            <h2>Qui sommes-nous</h2>
+            <div class="col-sm-12 col-md-12">
+                <h2>Qui sommes-nous</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in id qui sed totam rerum velit vero exercitationem asperiores accusantium temporibus cumque sequi, illo modi repudiandae corrupti iure at. A!
                 Iste enim error dolores cumque nulla aliquid, repellendus ratione officia quia inventore natus animi reprehenderit quisquam tempore eum perferendis, tenetur magni. Nesciunt alias, hic possimus voluptas qui facere vitae ea.
                 Doloremque blanditiis voluptas exercitationem hic voluptatem quisquam, unde, dolorem dicta, possimus ipsum ullam recusandae consectetur! Maiores possimus iste nihil numquam, neque nam praesentium minima maxime optio aliquam expedita beatae repellat?
             </p>
+
+            </div>
+            
         </div>
         
     
         <section>
             <h2>Nos chambres</h2>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+            <div id="carouselExampleCaptions car" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators car">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -146,24 +155,24 @@
         <section>
             <h2>Le restaurant</h2>
     
-            <div class="row">
-                <figure class="figure col-3 .col-sm- .col-md- .col-lg- .col-xl- ">
+            <div class="row ">
+                <figure class="figure col-sm-12 col-md-6 col-lg-3">
                     <img src="./Images/restaurant/restaurant.jpg" class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque libero, aliquam mollitia voluptate sed, numquam placeat obcaecati culpa asperiores quaerat ratione, accusamus reprehenderit quas porro ut blanditiis nam! Rem, laborum..</figcaption>
                 </figure>
 
 
-                <figure class="figure col-3 .col-sm- .col-md- .col-lg- .col-xl- ">
+                <figure class="figure col-sm-12 col-md-6 col-lg-3 ">
                     <img src="./Images/restaurant/brasserie.jpg" class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eum soluta totam consectetur reprehenderit, libero, hic animi earum assumenda consequatur autem! Itaque quibusdam et saepe magni nobis sunt aut amet.</figcaption>
                 </figure>  
 
-                <figure class="figure col-3 .col-sm- .col-md- .col-lg- .col-xl- ">
+                <figure class="figure col-sm-12 col-md-6 col-lg-3 ">
                     <img src="./Images/restaurant/degustation.jpg" class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut, eius ea explicabo sequi unde. Aliquid facere tenetur autem voluptatum maxime consectetur totam aperiam est sit, tempora animi numquam similique..</figcaption>
                 </figure>
 
-                <figure class="figure col-3 .col-sm-.col-md- .col-lg- .col-xl- ">
+                <figure class="figure col-sm-12 col-md-6 col-lg-3 ">
                     <img src="./Images/restaurant/restau2.jpg" class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa ullam aspernatur eveniet nam rem magni optio maiores? Distinctio fugiat mollitia molestiae vel voluptatibus non dicta, facere vero cumque officia reprehenderit?.</figcaption>
                 </figure>
@@ -174,37 +183,37 @@
         <section class="spa">
             <h2>Le Spa</h2>
             <div class="row">
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa.jpg" class="img-fluid" alt="">
                     <h2><a href="./spa.html"> Soin Détente</a></h2>
                     <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, eum, delectus temporibus quia soluta minima quos nobis culpa magni saepe id amet rem voluptatum at excepturi deleniti earum suscipit modi?</figcaption>
                 </figure>
 
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa1.jpg" class="img-fluid" alt="">
                     <h2><a href="./spa.html"> Soin Découverte</a></h2> 
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, itaque quis quod eaque ex aliquid et. Totam ullam aliquid commodi natus aut! Praesentium sunt nam, assumenda unde quia eius quos!</figcaption>
                 </figure>
 
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa2.jpg"class="img-fluid" alt="">
                     <h2><a href="./spa.html"> Soin Relaxant</a></h2> 
                     <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus dolore voluptas illo consectetur debitis voluptatem officia doloremque soluta, itaque commodi ea. Ad modi repellat cumque voluptatibus aliquid harum aperiam dolore!</figcaption>
                 </figure>
 
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa3.jpg" class="img-fluid" alt="">
                     <h2><a href="./spa.html"> Soin Plaisir</a></h2> 
                     <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, molestiae tempora ipsam a modi consequatur eos necessitatibus velit fugiat, autem quis illo ratione, ipsum atque ullam aliquam labore? Repudiandae, odit?</figcaption>
                 </figure>
 
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa4.jpg" class="img-fluid" alt="">
                     <h2> <a href="./spa.html"> Soin Evasion</a></h2> 
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti repellendus omnis recusandae magnam quaerat porro ex, eos sit fuga, blanditiis quos aut suscipit delectus! Odio pariatur cupiditate iste porro!</figcaption>
                 </figure>
 
-                <figure class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <figure class="col-sm-12 col-md-6 col-lg-6">
                     <img src="./Images/spa/spa5.jpg" class="img-fluid" alt="">
                     <h2> <a href="./spa.html"> Spa</a> </h2> 
                     <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, repellat blanditiis, laborum error ratione id quaerat obcaecati veritatis provident quo tempore reprehenderit totam delectus officiis fugiat atque? Magni, repudiandae sunt.</figcaption>
@@ -223,8 +232,8 @@
 
             
 
-            <form class="d-play" action="">
-                <button type="button" class="btn btn-primary btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+            <form  class="d-play btn-principal" action="">
+                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
             </form>
             
             
@@ -249,8 +258,9 @@
         </section>
             
     
+    </div>
 
-        <!-- Footer -->
+         <!-- Footer -->
 <footer class="page-footer font-small indigo">
 
     <!-- Footer Links -->
@@ -320,12 +330,6 @@
         <!-- Copyright -->
     
 </footer>
-    
-
-
-    </div>
-
-    
 
 
 

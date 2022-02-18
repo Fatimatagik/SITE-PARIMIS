@@ -24,6 +24,15 @@ p{
     margin: 10px;
 } */
 
+.boutton {
+    background-color: rosybrown;
+}
+
+.boutton a{
+    text-decoration: none;
+    color: white;
+}
+
 
 footer{
     margin-top: 20px;
@@ -62,10 +71,32 @@ header{
     background-color: #eed3bf;
     /* position: fixed; */
     width: 100%;
+    /* z-index: 2; */
 }
 
-nav{
+/* nav{
     justify-content: center;
+} */
+
+.nav2{
+    background: #eed3bf;
+}
+
+.navigation{
+    background-color: rosybrown;
+    padding: 10px;
+    height: 50%;
+    margin: 10px;
+    width: 65%;
+}
+
+.navigation a{
+    color: white;
+}
+
+.navigation a:hover{
+    opacity: 0.5;
+
 }
 
 
@@ -124,6 +155,9 @@ h2{
     text-align: center;
 }
 
+.car{
+    z-index: 1;
+}
 
 
 .spa figure{
@@ -163,6 +197,7 @@ form{
 /*------------Footer----------*/
 footer{
     background-color: #eed3bf;
+    position: fixed;
 }
 
 
@@ -310,4 +345,10 @@ h5{
 .cont-spa{
     margin: 20px auto;
     max-width: 650px;
+}
+@media screen and (min-width : 320px) {
+    header{
+
+    }
+    
 }
