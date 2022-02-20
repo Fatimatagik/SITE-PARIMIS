@@ -49,7 +49,7 @@ p{
 
 .boutton a{
     text-decoration: none;
-    color:#eed3bf;
+    color:#e18B6B;
 }
 
 
@@ -61,8 +61,9 @@ body{
     background: url(../Images/hall.jpg);
     background-size: cover;
     background-repeat:no-repeat;
-    margin: 0 auto;
     color: white;
+    
+    
 
 }
 
@@ -101,7 +102,7 @@ header{
 } */
 
 .nav2{
-    background: #eed3bf;
+    background: #e18B6B;
 }
 
 .navigation{
@@ -116,7 +117,7 @@ header{
 }
 
 .navigation a{
-    color:#eed3bf;
+    color: #e18b6b;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -127,6 +128,7 @@ header{
     opacity: 0.5;
     background-color: rosybrown;
     transition: all 0.5s ease;
+    border: 1px solid #efefef;
 }
 
 .navigation a:hover{
@@ -206,7 +208,7 @@ form{
 }
 
 .bloc-resa{
-    background-color: #eed3bf;
+    background-color: #e18B6B;
     border-radius: 15px;
     justify-content: center;
     flex-direction: column;
@@ -229,11 +231,22 @@ form{
 
 }
 
+.spa h3 a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
 
 
 /*------------Footer----------*/
 footer{
-    background-color: #eed3bf;
+    background-color: #e18B6B;
    
 }
 
@@ -260,7 +273,7 @@ footer{
     width: 80%;
     align-items: center;
     padding: 20px;
-    background-color: #eed3bf ;
+    background-color: #e18B6B ;
     border-radius: 15px;
     text-align: center;
 }
@@ -316,7 +329,7 @@ h5{
 
 
 .bloc1, .bloc2, .bloc3{
-    background-color:#eed3bf;
+    background-color:#e18B6B;
     width: 550px;
     padding: 10px;
     /* margin: 10px; */
@@ -355,7 +368,6 @@ h5{
 .bloc3 a{
     border: 5 px solid black;
     justify-content: center;
-    background-color: blue;
     width: 20%;
     border-radius: 5px; 
    
