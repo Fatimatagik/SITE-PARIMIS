@@ -104,7 +104,7 @@
             <form action="">
                 <h5>Hôtel</h5>
 
-                <div class="boite">
+                <div class="boite reservation">
                     <div class="civilite d-play">
                         <label for="men">Mr</label>
                         <input type="radio" name="civilite" value="men" id="homme">
@@ -113,13 +113,13 @@
                     </div>
                     <div class="form-p d-play">
                         <input class="d-play" type="text" name="nom" id="nom" placeholder="Nom">
-                        <div style="color:red"   id="erreur_nom"></div>
+                        <!-- <div style="color:red"   id="erreur_nom"></div> -->
                         <input class="d-play" type="text" name="prenom" id="prenom" placeholder="Prénom">
-                        <div style="color:red"   id="erreur_prenom"></div>
+                        <!-- <div style="color:red"   id="erreur_prenom"></div> -->
                         <input class="d-play" type="email" name="email" id="email" placeholder="email">
-                        <div style="color:red"   id="erreur_mail"></div>
+                        <!-- <div style="color:red"   id="erreur_mail"></div> -->
                         <input class="d-play" type="tel" name="telephone" id="telephone" placeholder="Téléphone">
-                        <div style="color:red"   id="erreur_telephone"></div>
+                        <!-- <div style="color:red"   id="erreur_telephone"></div> -->
                         <label for="client"></label> Adulte(s)
                         <select name="client" id="client">
                             <option value="1">1</option>
@@ -129,7 +129,8 @@
                             <option value="5">5</option>
                             <option value="6">6</option>
                         </select>
-                        <div style="color:red"   id="erreur_client"></div>
+                        <!-- <div style="color:red"   id="erreur_client"></div> -->
+                        <p style="color: red;"  id="erreur"></p>
                        
                 
                         <label for="enfant"></label> Enfant(s)
