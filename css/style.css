@@ -157,12 +157,7 @@ header input{
 input{
     position: relative;
 }
-.fa-magnifying-glass{
-    /* position: absolute; */
-    /* margin-right: 10px; */
-    
 
-}
 
 .fa-basket-shopping{
     font-weight: 600;
@@ -176,11 +171,7 @@ input{
     color: black;
 }
 
-.search{
-    /* flex-direction: row; */
-    /* justify-content: end; */
 
-}
 
 /*------------Contenue Principal----------*/
 

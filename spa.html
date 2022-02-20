@@ -10,64 +10,92 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="d-play">
-        <div ><img  class="logo" src="./Images/logo.png" alt=""></div>
+    <header class="d-play nav2">
+        <div><img class="logo" src="./Images/logo.png" alt="" /></div>
 
-
-        <nav class="navbar navbar-expand-lg navbar-light d-play nav2">
-            <div class="container-fluid"> 
-                <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item navigation">
-                        <a class="nav-link active" aria-current="page" href="./index.html"> Hôtel</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./chambres.html">Chambres</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./spa.html">Spa</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./reservation.html">Réservation</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./actualites.html">Actualités</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item navigation">
+                            <a
+                                class="active"
+                                aria-current="page"
+                                href="./index.html"
+                                >Hotel</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./chambres.html">Chambre</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./restaurant.html"
+                                >Restaurant</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./spa.html">Spa</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./reservation.html"
+                                >Réservation</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href=".//actualites.html"
+                                >Actualités</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class=" " href="./contact.html">Contact</a>
+                        </li>
                     </ul>
-            </div>
+                </div>
+
+                <div>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Rechercher"
+                            aria-label="Rechercher"
+                        />
+                        <button
+                            class="btn btn-outline-success"
+                            type="submit"
+                        >
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+
+                    <div>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+
+                    <div class="d-play lang">
+                        <select name="langue" id="langue ">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </nav>
-
-      
-            <div class="search d-play">
-                <input type="text" title="recherche" id="recherche" placeholder="Votre recherche ">
-                
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-basket-shopping d-play"></i>
-
-            </div>
-
-            <div class="d-play lang">
-                <select name="langue" id="langue ">
-                    <option value="fr">FR</option>
-                    <option value="en">EN</option>
-                        
-                </select>
-        
-            </div>
-            
-        
-    </header> 
+    </header>
 
 
 
@@ -114,149 +142,199 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <img src="./Images/spa/spa3.jpg"class="img-fluid" alt="">
             </div>
-        
-            <p class="col-sm-12 col-md-12 col-lg-12">
-            Modelage relaxant à l’huile chaudes : les mouvements utilisés sont très amples et plutôt rapides, évoquant ainsi les vagues, la mer, le va-et-vient de l’eau des îles d’Hawaï. <br>
-            <select name="duree" id="duree">
-                <option value="45mins">45 mins 35€</option>
-                <option value="60mins">60 mins 70€</option>
-                <option value="90mins">90 mins 100€</option>
-                <option value="1h20">1h20 120€</option>
-            </select>
             
-            </p>
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
+            <div class="col-sm-12 col-md-12 col-lg-12" >
+                <p>Modelage relaxant à l’huile chaudes : les mouvements utilisés sont très amples et plutôt rapides, évoquant ainsi les vagues, la mer, le va-et-vient de l’eau des îles d’Hawaï. <br>
+                    <select name="duree" id="duree">
+                        <option value="45mins">45 mins 35€</option>
+                        <option value="60mins">60 mins 70€</option>
+                        <option value="90mins">90 mins 100€</option>
+                        <option value="1h20">1h20 120€</option>
+                    </select>
+                    
+                </p>
+                <form  class="d-play btn-principal" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
+
+            </div>
+            
 
             <h2>Soin Plaisir</h2>
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <img src="./Images/spa/spa4.jpg"class="img-fluid" alt="">
             </div>
-        
-            <p class="col-sm-12 col-md-12 col-lg-12">
-                Association d’un soin relaxant du corps aux galets chauds et d’un soin visage hydratant. Détente du corps et de l’esprit.
-                <select name="duree" id="duree">
-                    <option value="45mins">45 mins 35€</option>
-                    <option value="60mins">60 mins 70€</option>
-                    <option value="90mins">90 mins 100€</option>
-                    <option value="1h20">1h20 120€</option>
-                </select>
-            </p>
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
 
-            <h2>Soin Evasion</h2>
-            <div class="col-12">
-                <img src="./Images/spa/spa5.jpg"class="img-fluid" alt="">
+            <div>
+                <p class="col-sm-12 col-md-12 col-lg-12">
+                    Association d’un soin relaxant du corps aux galets chauds et d’un soin visage hydratant. Détente du corps et de l’esprit.
+                    <select name="duree" id="duree">
+                        <option value="45mins">45 mins 35€</option>
+                        <option value="60mins">60 mins 70€</option>
+                        <option value="90mins">90 mins 100€</option>
+                        <option value="1h20">1h20 120€</option>
+                    </select>
+                </p>
+                <form  class="d-play btn-principal text-center" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
+
             </div>
         
-            <p class="col-sm-12 col-md-12 col-lg-12">Ce modelage relaxant commence par la flamme qui pacifie l’atmosphère
-                et permet d’obtenir une huile tiède et délicieusement parfumée.
-                <select name="duree" id="duree">
-                    <option value="45mins">45 mins 35€</option>
-                    <option value="60mins">60 mins 70€</option>
-                    <option value="90mins">90 mins 100€</option>
-                    <option value="1h20">1h20 120€</option>
-                </select>
-            </p>
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
+            
+
+            <h2>Soin Evasion</h2>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <img src="./Images/spa/spa5.jpg"class="img-fluid" alt="">
+            </div>
+            
+            <div>
+                <p class="col-sm-12 col-md-12 col-lg-12">Ce modelage relaxant commence par la flamme qui pacifie l’atmosphère
+                    et permet d’obtenir une huile tiède et délicieusement parfumée.
+                    <select name="duree" id="duree">
+                        <option value="45mins">45 mins 35€</option>
+                        <option value="60mins">60 mins 70€</option>
+                        <option value="90mins">90 mins 100€</option>
+                        <option value="1h20">1h20 120€</option>
+                    </select>
+                </p>
+                <form  class="d-play btn-principal text-center" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
+
+            </div>
+            
             
             <h2>Spa</h2>
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <img src="./Images/spa/spa.jpg"class="img-fluid" alt="">
             </div>
-        
-            <p class="col-sm-12 col-md-12 col-lg-12">Ce modelage relaxant personnalisé, il cible une zone au choix : le dos, les jambes, la tête, les pieds.
-                <select name="duree" id="duree">
-                    <option value="45mins">45 mins 35€</option>
-                    <option value="60mins">60 mins 70€</option>
-                    <option value="90mins">90 mins 100€</option>
-                    <option value="1h20">1h20 120€</option>
-                </select>
-            </p>
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
 
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p>Ce modelage relaxant personnalisé, il cible une zone au choix : le dos, les jambes, la tête, les pieds.
+                    <select name="duree" id="duree">
+                        <option value="45mins">45 mins 35€</option>
+                        <option value="60mins">60 mins 70€</option>
+                        <option value="90mins">90 mins 100€</option>
+                        <option value="1h20">1h20 120€</option>
+                    </select>
+                </p>
+                <form  class="d-play btn-principal text-center" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
+    
+
+            </div>
+        
+            
         </div>
 
 
     </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small indigo">
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo">
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Evènements
+                        </h5>
 
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-        
-            <!-- Grid row -->
-            <div class="row">
-        
-                <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
-        
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mentions Légales</h5>
-        
-                
-        
+                        
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Conditions Generales de Ventes
+                        </h5>
+
+                        
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Partager
+                        </h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <div><i class="fa-brands fa-facebook"></i></div>
+                            </li>    
+                            </li>
+                            <li>
+                                <div><i class="fa-brands fa-twitter-square"></i></div>
+
+                            </li>
+                            <li>
+                                <div><i class="fa-brands fa-instagram-square"></i></div>
+
+                            </li>
+                            <div>
+                                <h5>Newsletter</h5>
+                                <form class="d-flex">
+                                    <input
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Rechercher"
+                                        aria-label="Rechercher"
+                                    />
+                                    <button
+                                        class="btn btn-outline-success"
+                                        type="submit"
+                                    >
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </form>
+
+                            </div>
+                            
+    
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Mentions Légales
+                        </h5>
+
+                        
+                    </div>
+                    <!-- Grid column -->
                 </div>
-                <!-- Grid column -->
-        
-                <hr class="clearfix w-100 d-md-none">
-        
-                <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
-        
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Condition Générales de Ventes</h5>
-        
-                
-        
-                </div>
-                <!-- Grid column -->
-        
-                <hr class="clearfix w-100 d-md-none">
-        
-                <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
-        
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Plan du site</h5>
-        
-        
-                </div>
-                <!-- Grid column -->
-        
-                <hr class="clearfix w-100 d-md-none">
-        
-                <!-- Grid column -->
-                <div class="col-md-3 mx-auto">
-        
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Newsletter</h5>
-        
-        
-                </div>
-                <!-- Grid column -->
-        
-            </div>
-            <!-- Grid row -->
-        
+                <!-- Grid row -->
             </div>
             <!-- Footer Links -->
-        
+
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> HotelParimis.com</a>
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> HôtelParimis.com</a>
             </div>
             <!-- Copyright -->
-        
-    </footer>
+        </footer>
+        <!-- Footer -->
+
+
 
 
 

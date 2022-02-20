@@ -17,86 +17,93 @@
         />
     </head>
     <body>
-        <header class="d-play">
+        <header class="d-play nav2">
             <div><img class="logo" src="./Images/logo.png" alt="" /></div>
 
-            <nav class="navbar navbar-expand-lg navbar-light d-play nav2">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
                     <button
                         class="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item navigation">
                                 <a
-                                    class="nav-link active"
+                                    class="active"
                                     aria-current="page"
                                     href="./index.html"
-                                >
-                                    Hôtel</a
-                                >
-                            </li>
-                            <li class="nav-item navigation">
-                                <a class="nav-link" href="./chambres.html"
-                                    >Chambres</a
+                                    >Hotel</a
                                 >
                             </li>
                             <li class="nav-item navigation">
-                                <a class="nav-link" href="./restaurant.html"
+                                <a class="" href="./chambres.html">Chambre</a>
+                            </li>
+                            <li class="nav-item navigation">
+                                <a class="" href="./restaurant.html"
                                     >Restaurant</a
                                 >
                             </li>
                             <li class="nav-item navigation">
-                                <a class="nav-link" href="./spa.html">Spa</a>
+                                <a class="" href="./spa.html">Spa</a>
                             </li>
                             <li class="nav-item navigation">
-                                <a class="nav-link" href="./reservation.html"
+                                <a class="" href="./reservation.html"
                                     >Réservation</a
                                 >
                             </li>
                             <li class="nav-item navigation">
-                                <a class="nav-link" href="./actualites.html"
+                                <a class="" href=".//actualites.html"
                                     >Actualités</a
                                 >
                             </li>
                             <li class="nav-item navigation">
-                                <a class="nav-link" href="./contact.html"
-                                    >Contact</a
-                                >
+                                <a class=" " href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
+
+                    <div>
+                        <form class="d-flex">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Rechercher"
+                                aria-label="Rechercher"
+                            />
+                            <button
+                                class="btn btn-outline-success"
+                                type="submit"
+                            >
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+
+                        <div>
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+
+                        <div class="d-play lang">
+                            <select name="langue" id="langue ">
+                                <option value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </nav>
-
-            <div class="search d-play">
-                <input
-                    type="text"
-                    title="recherche"
-                    id="recherche"
-                    placeholder="Votre recherche "
-                />
-
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-basket-shopping d-play"></i>
-            </div>
-
-            <div class="d-play lang">
-                <select name="langue" id="langue ">
-                    <option value="fr">FR</option>
-                    <option value="en">EN</option>
-                </select>
-            </div>
         </header>
+
 
         <div class="conteneur">
             <h1>Notre Restaurant</h1>
@@ -113,22 +120,25 @@
                         />
                     </div>
 
-                        
-                    <p class="col-sm-12 col-md-12 col-lg-6">
-                        Cromesquis de chèvre façon Côté Parvis, 17 €
-                        Vinaigrette de noix Suprême de poule. <br />
-                        Filet de Saint-Pierre, 29 € Poireaux sautés a
-                        cru et citron confit, fenouil, émulsion fumée
-                        <br />
-                        Fraicheur de Mandarine et douceur de carotte aux
-                        noix 17€ <br />
-                    </p>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <p>
+                            Cromesquis de chèvre façon Côté Parvis, 17 €
+                            Vinaigrette de noix Suprême de poule. <br />
+                            Filet de Saint-Pierre, 29 € Poireaux sautés a
+                            cru et citron confit, fenouil, émulsion fumée
+                            <br />
+                            Fraicheur de Mandarine et douceur de carotte aux
+                            noix 17€ <br />
+                        </p>
+    
+                        <form class="d-play btn-principal text-center" action="">
+                            <button type="button"class="btn boutton btn-lg d-play">
+                                <a href="./reservation.html"> Réserver</a>
+                                </button>
+                        </form>
 
-                    <form class="d-play btn-principal" action="">
-                        <button type="button"class="btn boutton btn-lg d-play">
-                            <a href="./reservation.html"> Réserver</a>
-                            </button>
-                    </form>
+                    </div>    
+                    
                 </div>
             </div>
 
@@ -143,19 +153,23 @@
                             alt=""
                         />
                     </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <p>
+                            Saumon d’Ecosse fumé au bois de hêtre, 23 € Céleri au
+                            raifort. <br />
+                            Magret de canard rôti, contisé à la marjolaine, 27 €
+                            Echalotes confites, cru-cuit de légumes <br />
+                            Les parfums du monde. 25€
+                        </p>
+                        <form class="d-play btn-principal text-center" action="">
+                            <button type="button" class="btn boutton btn-lg d-play">
+                                <a href="./reservation.html"> Réserver</a>
+                            </button>
+                        </form>
 
-                    <p class="col-sm-12 col-md-12 col-lg-6">
-                        Saumon d’Ecosse fumé au bois de hêtre, 23 € Céleri au
-                        raifort. <br />
-                        Magret de canard rôti, contisé à la marjolaine, 27 €
-                        Echalotes confites, cru-cuit de légumes <br />
-                        Les parfums du monde. 25€
-                    </p>
-                    <form class="d-play btn-principal" action="">
-                        <button type="button" class="btn boutton btn-lg d-play">
-                            <a href="./reservation.html"> Réserver</a>
-                        </button>
-                    </form>
+                    </div>
+
+                    
                 </div>
             </div>
 
@@ -167,10 +181,10 @@
                         <img
                             src="./Images/menu/menu3.jpg"
                             class="img-fluid"
-                            alt=""
-                        />
-                    </div>
-                    <p class="col-sm-12 col-md-12 col-lg-6">
+                            alt=""/>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>
                         Thon rouge à la coriandre, 25 € Bisque froide de
                         langoustines. <br />
                         Carré d’agneau rôti, 29 € Risotto croustillant et ail
@@ -179,7 +193,7 @@
                         au c
                     </p>
 
-                    <form class="d-play btn-principal" action="">
+                    <form class="d-play btn-principal text-center" action="">
                         <button type="button" class="btn boutton btn-lg d-play">
                             <a href="./reservation.html"> Réserver</a>
                         </button>
@@ -198,41 +212,82 @@
                     <div class="col-md-3 mx-auto">
                         <!-- Links -->
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Evènements
+                        </h5>
+
+                        
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Conditions Generales de Ventes
+                        </h5>
+
+                        
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                            Partager
+                        </h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <div><i class="fa-brands fa-facebook"></i></div>
+                            </li>    
+                            </li>
+                            <li>
+                                <div><i class="fa-brands fa-twitter-square"></i></div>
+
+                            </li>
+                            <li>
+                                <div><i class="fa-brands fa-instagram-square"></i></div>
+
+                            </li>
+                            <div>
+                                <h5>Newsletter</h5>
+                                <form class="d-flex">
+                                    <input
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Rechercher"
+                                        aria-label="Rechercher"
+                                    />
+                                    <button
+                                        class="btn btn-outline-success"
+                                        type="submit"
+                                    >
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </form>
+
+                            </div>
+                            
+    
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
                             Mentions Légales
                         </h5>
-                    </div>
-                    <!-- Grid column -->
 
-                    <hr class="clearfix w-100 d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 mx-auto">
-                        <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-                            Condition Générales de Ventes
-                        </h5>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 mx-auto">
-                        <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-                            Plan du site
-                        </h5>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="clearfix w-100 d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 mx-auto">
-                        <!-- Links -->
-                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-                            Newsletter
-                        </h5>
+                        
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -243,10 +298,12 @@
             <!-- Copyright -->
             <div class="footer-copyright text-center py-3">
                 © 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> HotelParimis.com</a>
+                <a href="https://mdbootstrap.com/"> HôtelParimis.com</a>
             </div>
             <!-- Copyright -->
         </footer>
+        <!-- Footer -->
+
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

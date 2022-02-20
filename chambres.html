@@ -12,70 +12,98 @@
 </head>
 <body>
 
-    <header class="d-play">
-        <div ><img  class="logo" src="./Images/logo.png" alt=""></div>
+    <header class="d-play nav2">
+        <div><img class="logo" src="./Images/logo.png" alt="" /></div>
 
-
-        <nav class="navbar navbar-expand-lg navbar-light d-play nav2">
-            <div class="container-fluid"> 
-                <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item navigation">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Hôtel</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./chambres.html">Chambres</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./spa.html">Spa</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./reservation.html">Réservation</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./actualites.html">Actualités</a>
-                    </li>
-                    <li class="nav-item navigation">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item navigation">
+                            <a
+                                class="active"
+                                aria-current="page"
+                                href="./index.html"
+                                >Hotel</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./chambres.html">Chambre</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./restaurant.html"
+                                >Restaurant</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./spa.html">Spa</a>
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href="./reservation.html"
+                                >Réservation</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class="" href=".//actualites.html"
+                                >Actualités</a
+                            >
+                        </li>
+                        <li class="nav-item navigation">
+                            <a class=" " href="./contact.html">Contact</a>
+                        </li>
                     </ul>
-            </div>
+                </div>
+
+                <div>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Rechercher"
+                            aria-label="Rechercher"
+                        />
+                        <button
+                            class="btn btn-outline-success"
+                            type="submit"
+                        >
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+
+                    <div>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+
+                    <div class="d-play lang">
+                        <select name="langue" id="langue ">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </nav>
-
-      
-            <div class="search d-play">
-                <input type="text" title="recherche" id="recherche" placeholder="Votre recherche ">
-                
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-basket-shopping d-play"></i>
-
-            </div>
-
-            <div class="d-play lang">
-                <select name="langue" id="langue ">
-                    <option value="fr">FR</option>
-                    <option value="en">EN</option>
-                        
-                </select>
-        
-            </div>
-            
-        
-    </header> 
+    </header>
 
 
     <div class="conteneur">
         <h1>Nos Chambres</h1>
 
-<h2>Les différentes gammes</h2>
+<   h2>Les différentes gammes</h2>
 
 
     <ul>
@@ -103,25 +131,29 @@
    <section>
         <h2>La Classique</h2>
 
-        <div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
             <img src="./Images/chambres/classique.jpg" class="img-fluid" alt="...">
         </div>
 
-        <p>
-            Confortables et raffinées, les chambres Deluxe peuvent accueillir jusqu’à 3 invités, et certaines sont communicantes : la combinaison parfaite pour un séjour en famille. D’une surface confortable et offrant pour certaines le charme haussmannien d’une cheminée en marbre surmontée d’une télévision murale, les Chambres Deluxe proposent tous les équipements nécessaires à un séjour réussi.
+        <div>
+            <p class="col-sm-12 col-md-12 col-lg-12">
+                Confortables et raffinées, les chambres Deluxe peuvent accueillir jusqu’à 3 invités, et certaines sont communicantes : la combinaison parfaite pour un séjour en famille. D’une surface confortable et offrant pour certaines le charme haussmannien d’une cheminée en marbre surmontée d’une télévision murale, les Chambres Deluxe proposent tous les équipements nécessaires à un séjour réussi.
+    
+                - De 26 à 30 m2 <br>
+    
+                - Lit double ou 2 lits simples <br>
+    
+                - Baignoire ou douche à l’italienne <br>
+                
+                450€/nuit
+            </p>
+    
+            <form  class="d-play btn-principal text-center" action="">
+                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+            </form>
 
-            - De 26 à 30 m2 <br>
-
-            - Lit double ou 2 lits simples <br>
-
-            - Baignoire ou douche à l’italienne <br>
-            
-            450€/nuit
-        </p>
-
-        <form  class="d-play btn-principal" action="">
-            <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-        </form>
+        </div>
+        
     
    </section>
 
@@ -130,31 +162,38 @@
         <h2>Le Confort</h2>
 
         <div class="row">
-            <p class="col-6">
-                Les chambres Confort, spacieuses, sont idéales pour de longs séjours. Dotées d’un balcon ou d’une vue, et disposant d’une cheminée surmontée d’un téléviseur miroir, elles peuvent accueillir jusqu’à 3 personnes. Le charme haussmannien allié aux équipements modernes, sont la garantie d’un séjour d’exception. <br>
 
-                Elles disposent d’une vue ou d’un balcon parisien. <br>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p >
+                    Les chambres Confort, spacieuses, sont idéales pour de longs séjours. Dotées d’un balcon ou d’une vue, et disposant d’une cheminée surmontée d’un téléviseur miroir, elles peuvent accueillir jusqu’à 3 personnes. Le charme haussmannien allié aux équipements modernes, sont la garantie d’un séjour d’exception. <br>
+    
+                    Elles disposent d’une vue ou d’un balcon parisien. <br>
+    
+                    - De 26 à 30 m2 <br>
+    
+                    - Lit double ou 2 lits simples <br>
+    
+                    - Baignoire ou douche à l’italienne <br>
+    
+                    - Chambre adaptée aux personnes à mobilité réduite <br>
+    
+                    550€/nuit
+                </p>
+                <form  class="d-play btn-principal text-center" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
 
-                - De 26 à 30 m2 <br>
-
-                - Lit double ou 2 lits simples <br>
-
-                - Baignoire ou douche à l’italienne <br>
-
-                - Chambre adaptée aux personnes à mobilité réduite <br>
-
-                550€/nuit
-            </p>
+            </div>
+            
             <!-- <form class="d-play" action="">
                 <button type="button" class="btn btn-primary btn-lg d-play">Reserver</button>
             </form> -->
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <img src="./Images/chambres/confort.jpg" class="img-fluid" alt="...">
             </div>
+            
 
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
+            
 
 
         </div>
@@ -167,27 +206,32 @@
     
     <section>
         <h2>Le Deluxe</h2>
-        <div>
+        <div class="col-sm-12 col-md-12 col-lg-12">
             
             <img src="./Images/chambres/luxe.jpg" class="img-fluid" alt="...">
         </div>
-        <p>
-            Les chambres Deluxe Exécutives, spacieuses, sont idéales pour de longs séjours. Dotées d’un balcon ou d’une vue, et disposant d’une cheminée surmontée d’un téléviseur miroir, elles peuvent accueillir jusqu’à 3 personnes. Le charme haussmannien allié aux équipements modernes, sont la garantie d’un séjour agréable. <br>
 
-            Elles disposent d’une vue ou d’un balcon parisien. <br>
+        <div class="col-sm-12 col-md-12 col-lg-12">
 
-            - De 26 à 30 m2 <br>
+        
+            <p>
+                Les chambres Deluxe Exécutives, spacieuses, sont idéales pour de longs séjours. Dotées d’un balcon ou d’une vue, et disposant d’une cheminée surmontée d’un téléviseur miroir, elles peuvent accueillir jusqu’à 3 personnes. Le charme haussmannien allié aux équipements modernes, sont la garantie d’un séjour agréable. <br>
 
-            - Lit double ou 2 lits simples <br>
+                Elles disposent d’une vue ou d’un balcon parisien. <br>
 
-            - Baignoire ou douche à l’italienne <br>
+                - De 26 à 30 m2 <br>
 
-            - Chambre adaptée aux personnes à mobilité réduite <br>
-            950€/nuit
-        </p>
-        <form  class="d-play btn-principal" action="">
-            <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-        </form>
+                - Lit double ou 2 lits simples <br>
+
+                - Baignoire ou douche à l’italienne <br>
+
+                - Chambre adaptée aux personnes à mobilité réduite <br>
+                950€/nuit
+            </p>
+            <form  class="d-play btn-principal" action="">
+                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+            </form>
+        </div>
 
 
 
@@ -200,24 +244,28 @@
         <h2>La Suite</h2>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
 
                 <img src="./Images/chambres/suite.jpg" class="img-fluid" alt="...">
             </div>
-            <p class="col-6">
-                Confortables et raffinées, les chambres Deluxe peuvent accueillir jusqu’à 3 invités, et certaines sont communicantes : la combinaison parfaite pour un séjour en famille. D’une surface confortable et offrant pour certaines le charme haussmannien d’une cheminée en marbre surmontée d’une télévision murale, les Chambres Deluxe proposent tous les équipements nécessaires à un séjour réussi. <br>
 
-                - De 26 à 30 m2 <br>
-
-                - Lit double ou 2 lits simples <br>
-
-                - Baignoire ou douche à l’italienne <br>
-                1250€/nuit
-            </p>
-
-            <form  class="d-play btn-principal" action="">
-                <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
-            </form>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <p>
+                    Confortables et raffinées, les chambres Deluxe peuvent accueillir jusqu’à 3 invités, et certaines sont communicantes : la combinaison parfaite pour un séjour en famille. D’une surface confortable et offrant pour certaines le charme haussmannien d’une cheminée en marbre surmontée d’une télévision murale, les Chambres Deluxe proposent tous les équipements nécessaires à un séjour réussi. <br>
+    
+                    - De 26 à 30 m2 <br>
+    
+                    - Lit double ou 2 lits simples <br>
+    
+                    - Baignoire ou douche à l’italienne <br>
+                    1250€/nuit
+                </p>
+    
+                <form  class="d-play btn-principal text-center" action="">
+                    <button type="button" class="btn boutton btn-lg d-play"> <a href="./reservation.html"> Réserver</a></button>
+                </form>
+            </div>
+            
     
 
         </div>
@@ -226,76 +274,114 @@
     </section>
 
     </div>
-        <!-- Footer -->
-    <footer class="page-footer font-small indigo">
 
-                <!-- Footer Links -->
+
+       <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+            <!-- Footer Links -->
         <div class="container text-center text-md-left">
-                
-                    <!-- Grid row -->
-        <div class="row">
-                
-                        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-                
+                <!-- Grid row -->
+            <div class="row">
+                    <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
                         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mentions Légales</h5>
-                
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Evènements
+                    </h5>
+
                         
-                
-        </div>
-                        <!-- Grid column -->
-                
-        <hr class="clearfix w-100 d-md-none">
-                
-                        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-                
+                </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
                         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Condition Générales de Ventes</h5>
-                
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Conditions Generales de Ventes
+                    </h5>
+
                         
-                
-        </div>
-                        <!-- Grid column -->
-                
-        <hr class="clearfix w-100 d-md-none">
-                
-                        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-                
+                </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
                         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Plan du site</h5>
-                
-                
-        </div>
-                        <!-- Grid column -->
-                
-        <hr class="clearfix w-100 d-md-none">
-                
-                        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-                
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Partager
+                    </h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <div><i class="fa-brands fa-facebook"></i></div>
+                        </li>    
+                        </li>
+                        <li>
+                            <div><i class="fa-brands fa-twitter-square"></i></div>
+
+                        </li>
+                        <li>
+                            <div><i class="fa-brands fa-instagram-square"></i></div>
+
+                        </li>
+                        <div>
+                            <h5>Newsletter</h5>
+                            <form class="d-flex">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Rechercher"
+                                    aria-label="Rechercher"
+                                    />
+                                <button
+                                    class="btn btn-outline-success"
+                                    type="submit"
+                                    >
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+
+                        </div>
+                            
+    
+                    </ul>
+                </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none" />
+
+                    <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
                         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Newsletter</h5>
-                
-                
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Mentions Légales
+                    </h5>
+
+                        
+                </div>
+                    <!-- Grid column -->
+            </div>
+                <!-- Grid row -->
         </div>
-                        <!-- Grid column -->
-                
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> HôtelParimis.com</a>
         </div>
-                    <!-- Grid row -->
-                
-        </div>
-                    <!-- Footer Links -->
-                
-                    <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> HotelParimis.com</a>
-        </div>
-                    <!-- Copyright -->
-            
+            <!-- Copyright -->
     </footer>
+        <!-- Footer -->
+
+
+
+
+
     
 
 
