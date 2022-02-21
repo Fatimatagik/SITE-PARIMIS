@@ -1,6 +1,4 @@
 
-
-
 let button = document.getElementById('button')
 let erreur ="Veuillez renseigner tous les champs"
 let inscription =document.getElementById('inscription')
